@@ -133,3 +133,92 @@ margin: 50px;
     }
 
 }
+
+
+/* LOGIN */
+
+.login_vertical1_img{
+ 
+  position: absolute;
+  top: 6vh;
+  left: 15vh;
+  width: 50vh;
+  height: 50vh;
+  opacity: 70%;
+}
+
+.login_vertical1{
+  position: relative;
+  top: 3vh;
+  left: 3vh;
+  width: 80vh;
+  height: auto;
+}
+
+.login_vertical1_text{
+
+  position: absolute  ;
+  top: 60vh;
+  left: 6vh;
+  text-align:center;
+  color: blue;
+  
+}
+
+.login_vertical2{
+  position: absolute;
+  top: 3vh;
+  right: 20vh;
+  padding-right: 15vh;
+  width: 80vh;
+  height: auto;
+}
+.login_vertical2_atras{
+  position: relative  ;
+  display: inline;
+  width: 3vh;
+  top: 5vh;
+  left: 0vh;
+  color: blue;
+}
+.login_vertical2_retroceder{
+  position: relative  ;
+  display: inline-block;
+  top: 4.5vh;
+  left: 0vh;
+  color: blue;
+}
+
+.login_vertical2_text_ingresa{
+
+  position: relative  ;
+  top: 0vh;
+  left: 0vh;
+  text-align:center;
+  color: blue;
+}
+.login_vertical2_btn_ingresar{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-login-vertical2 {
+  width: 37vh;
+  background-color: blue; /* Green */
+  border: none;
+  color: white;
+  margin: 2vh 3vh;
+  padding: 2vh 0vh;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.login_vertical2_no_registrado{
+display: inline-flex;
+
+}
+.login_vertical2_registrate{
+  display: inline-flex;
+}
